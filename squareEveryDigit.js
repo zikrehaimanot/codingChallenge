@@ -9,13 +9,9 @@ function squareDigits(num){
  let arr = []
  let toString = num.toString()
  let split = toString.split('')
-//   console.log(split)
   for( let i = 0; i < split.length ; i++){
-//     console.log(split[i])
     let newNum = parseInt(split[i]) * parseInt(split[i])
-//     console.log(newNum)
     arr.push(newNum)
   }
-//   console.log(arr)
   return parseInt(arr.join('' , ''))
 }

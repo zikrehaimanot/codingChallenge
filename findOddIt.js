@@ -8,7 +8,6 @@
 
 function findOdd(arr) {
   var result, num = 0;
-
   arr = arr.sort();
   for (var i = 0; i < arr.length; i++) {
     if (arr[i] === arr[i+1]) {

@@ -4,8 +4,6 @@
 //
 //
 
-
-
 var kidsWithCandies = function(candies, extraCandies) {
     let biggestVal = Math.max(...candies)
     let retur = []
